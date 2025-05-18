@@ -14,17 +14,19 @@ export default function Navigation() {
             <div className="drawer-content flex flex-col">
                 {/* Navbar */}
                 <div className="navbar bg-base-200 w-full">
-                    <h2 className="mx-2 flex-1 px-2">NYPD Wood Fire Stone Oven Pizza</h2>
+                    <a className="link no-underline text-2xl font-bold flex-1">
+                        <h1 className="mx-2 px-2">NYPD Wood Fire Stone Oven Pizza</h1>
+                    </a>
                     <div className="hidden flex-none lg:block">
                         <ul className="menu menu-horizontal">
                             {/* Navbar menu content here */}
-                            <Link role="menuitem" className="py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-white transition-colors" href="/">
+                            <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/">
                                 Home
                             </Link>
-                            <Link role="menuitem" className="py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-white transition-colors" href="/">
+                            <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/about">
                                 About Us
                             </Link>
-                            <Link role="menuitem" className="py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-white transition-colors" href="/">
+                            <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/menu">
                                 Menu
                             </Link>
                         </ul>
@@ -64,13 +66,13 @@ export default function Navigation() {
                     </label>
 
                     {/* Sidebar content here */}
-                    <Link role="menuitem" className="py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-white transition-colors" href="/">
+                    <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/">
                         Home
                     </Link>
-                    <Link role="menuitem" className="py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-white transition-colors" href="/">
+                    <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/">
                         About Us
                     </Link>
-                    <Link role="menuitem" className="py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-white transition-colors" href="/">
+                    <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/">
                         Menu
                     </Link>
                 </ul>

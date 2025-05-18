@@ -11,7 +11,7 @@ export default function Home() {
           width={500}
           height={500}
           layout="responsive"
-          className="max-w-sm rounded-lg"/>
+          className="max-w-sm rounded-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"/>
         <div>
           <h1 className="text-5xl font-bold">
             Authentic New York Flavor.
