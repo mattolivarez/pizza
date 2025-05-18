@@ -2,7 +2,7 @@ import Image from 'next/image'
  
 export default function Home() {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
         <Image 
           src="/nypd_no_bg.png" 

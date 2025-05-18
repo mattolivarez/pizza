@@ -13,7 +13,7 @@ export default function Navigation() {
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 {/* Navbar */}
-                <div className="navbar bg-base-200 w-full">
+                <div className="navbar w-full">
                     <a className="link no-underline text-2xl font-bold flex-1">
                         <h1 className="mx-2 px-2">NYPD Wood Fire Stone Oven Pizza</h1>
                     </a>

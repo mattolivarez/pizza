@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html data-theme="retro" lang="en">
-      <body className="max-w-[2000px] max-h-full mx-auto">
+      <body className="max-w-[2000px] max-h-full mx-auto bg-base-200">
         <Navigation />
         {children}
       </body>
