@@ -2,3 +2,6 @@
 @plugin "daisyui" {
   themes: retro;
 }
+/* .card {
+  --cardtitle-fs: 1rem;
+} */
