@@ -69,10 +69,10 @@ export default function Navigation() {
                     <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/">
                         Home
                     </Link>
-                    <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/">
+                    <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/about">
                         About Us
                     </Link>
-                    <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/">
+                    <Link role="menuitem" className="text-lg py-1 px-6 focus:outline-none focus-visible:ring-4 ring-primary-900 rounded-sm ring-offset-4 hover:text-accent transition-colors" href="/menu">
                         Menu
                     </Link>
                 </ul>
